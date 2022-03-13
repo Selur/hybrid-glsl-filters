@@ -1,0 +1,4 @@
+#define STRENGTH 0.6
+#define BLUR_CURVE 0.6
+#define BLUR_THRESHOLD 0.1
+#define NOISE_THRESHOLD 0.001
