@@ -1,0 +1,4 @@
+//Strength of edge refinement, good values are between 0.2 and 4
+#define REFINE_STRENGTH 1.0
+//Bias of the refinement function, good values are between 0 and 1
+#define REFINE_BIAS 0.0
