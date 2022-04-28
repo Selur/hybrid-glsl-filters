@@ -111,7 +111,7 @@ vec4 hook() {
 #define CAS_GO_SLOWER 0 // If set to 1, disables the use of optimized approximate transcendental functions which might slightly increase accuracy in exchange of performance. 0 or 1.
 
 // Compatibility
-#define TARGET_TRC 4 // Is needed to convert from source colorspace to target colorspace. 0 = None (Skip conversion), 1 = Rec709, 2 = PQ, 3 = sRGB, 4 = BT.1886, 5 = HLG, 6 = Custom
+#define TARGET_TRC 0 // Is needed to convert from source colorspace to target colorspace. 0 = None (Skip conversion), 1 = Rec709, 2 = PQ, 3 = sRGB, 4 = BT.1886, 5 = HLG, 6 = Custom
 #define CUSTOM_TGAMMA 2.2 // Custom power gamma curve to use if and when TARGET_TRC is 6.
 
 // Shader code
