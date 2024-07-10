@@ -1,0 +1,14 @@
+// Scaling factors for each color channel
+#define RedScale 1.0
+#define GreenScale 1.0
+#define BlueScale 1.0
+
+// Bias adjustments for each color channel
+#define RedBias 0.0
+#define GreenBias 0.0
+#define BlueBias 0.0
+
+// Gamma adjustments for each color channel
+#define RedGamma 1.0
+#define GreenGamma 1.0
+#define BlueGamma 1.0
