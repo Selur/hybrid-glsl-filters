@@ -1,0 +1,5 @@
+#define input_low 16.0
+#define input_high 235.0
+#define gamma 1.0
+#define output_low 0.0
+#define output_high 255.0
