@@ -45,7 +45,7 @@
 // User variables - Relinearization
 // Compatibility
 #define SOURCE_TRC 6 // Is needed to convert from source colorspace to linear light. 0 = None (Skip conversion), 1 = Rec709, 2 = PQ, 3 = sRGB, 4 = BT.1886, 5 = HLG, 6 = Custom
-#define CUSTOM_SGAMMA 20 // Custom power gamma curve to use if and when SOURCE_TRC is 6.
+#define CUSTOM_SGAMMA 2.2 // Custom power gamma curve to use if and when SOURCE_TRC is 6.
 
 // Shader code
 
@@ -105,7 +105,7 @@ vec4 hook() {
 
 // User variables - Upsampling and Sharpening
 // Intensity
-#define SHARPENING 0.70 // Adjusts the range the shader adapts to high contrast (0 is not all the way off).  Higher values = more high contrast sharpening. 0.0 to 1.0.
+#define SHARPENING 0.0 // Adjusts the range the shader adapts to high contrast (0 is not all the way off).  Higher values = more high contrast sharpening. 0.0 to 1.0.
 
 // Performance
 #define CAS_BETTER_DIAGONALS 1 // If set to 0, drops certain math and texture lookup operations for better performance. This is only useful on pre-OpenGL 4.0 renderers and there is no need to disable it otherwise. 0 or 1.

@@ -1,1 +1,1 @@
-#define GammaFactor 1.00 // Change this value to adjust the gamma
+#define GammaFactor 2.0 // Change this value to adjust the gamma
